@@ -5,7 +5,7 @@ Feature: Login feature
   Scenario: Valid username Valid password test
 
 #    Given i'm on login page
-    When I enter "miaqapro@gmail.com" and "Test12345$ "
+    When I enter "miaqapro1@gmail.com" and "Test12345$ "
     Then i should get login success message
 
   @negative
